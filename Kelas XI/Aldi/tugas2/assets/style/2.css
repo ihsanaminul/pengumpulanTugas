@@ -1,0 +1,11 @@
+body{
+    background-color: #fff;
+}
+
+.container-fluid{
+    background-color: blue;
+    
+}
+.collapse .navbar-collapse{
+    color: #fff;
+}
