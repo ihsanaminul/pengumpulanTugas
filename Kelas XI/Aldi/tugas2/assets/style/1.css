@@ -1,0 +1,16 @@
+body{
+    background: white;
+}
+
+img {
+    padding-top: 3rem;
+  }
+
+.container-fluid{
+    background-color: blue;
+}
+.carousel{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
