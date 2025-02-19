@@ -1,0 +1,342 @@
+* {
+    text-decoration: none; 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans',sans-serif ;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:courier;
+    color:rgb(5, 5, 99);
+}
+.wrapper {
+    position: relative;
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid rgb(5, 5, 99);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:rgb(5, 5, 99) ;    
+}
+
+h2 {
+    font-family:'comic sans ms' ;
+    font-weight: 800;
+    font-size:  45px; 
+    margin-bottom: 20px;
+    color: rgb(5, 5, 99);
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: rgb(99, 99, 116);
+    border-radius:20px ;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: lightpink;
+    text-decoration:none ;
+}
+
+a.tbl-pink {
+    background: lightpink;
+    border-radius:20px ;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a tbl-pink:hover {
+    background: rgb(99, 99, 116);
+    text-decoration:none;
+}
+
+p {
+    margin:  10px 0px 0px 10px;
+    padding: 10px 0px 10px 0px ;
+}
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100% ;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width:80% ;
+    
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color:  rgb(5, 5, 99);
+}
+
+.partner-list {
+    width:100% ;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width:20%;
+    margin: 0 auto;    
+}
+
+.kartu-partner img {
+    width:150px;
+    border-radius: 50%;
+}
+
+footer {
+margin-top: 50px;
+padding: 20px;
+background-color: rgb(16, 15, 17);
+color: rgb(251, 251, 255);
+}
+
+#jadwalpelajaran .jadwal{
+    margin: auto;
+}
+
+#introduce img{
+    height: auto;
+    width: 400px;
+}
+
+#jadwalpelajaran .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:rgb(5, 5, 99) ;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+ol {
+    margin: 10px 0px 0px 10px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
